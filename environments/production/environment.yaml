@@ -6,7 +6,7 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: ""
+  version: "e36f8aa9-71b4-4749-8ecb-2cdc77a018c3"
   
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
@@ -44,21 +44,21 @@ app:
   # variables such as JVM_ARGS, JAVA_HOME, or any WLP_* environment variables
   # are ignored. Reference the environment variables in the server.xml using
   # the ${SOME_ENV_VAR_NAME} notation.
-  env:
-    - name: SOME_ENV_VAR_NAME
-      value: some_env_var_value
+  # env:
+  #   - name: SOME_ENV_VAR_NAME
+  #     value: some_env_var_value
 
-  # Set a list of Liberty variables for the application. 
-  # Reference the variables in the server.xml using the 
-  # ${some_liberty_variable_name} notation.
-  variables:
-    - name: some_liberty_variable_name
-      value: some_liberty_variable_value
+  # # Set a list of Liberty variables for the application. 
+  # # Reference the variables in the server.xml using the 
+  # # ${some_liberty_variable_name} notation.
+  # variables:
+  #   - name: some_liberty_variable_name
+  #     value: some_liberty_variable_value
       
-  # Set a list of the system properties for the Java runtime.
-  systemProperties:
-    - name: some_system_property_name
-      value: some_system_property_value
+  # # Set a list of the system properties for the Java runtime.
+  # systemProperties:
+  #   - name: some_system_property_name
+  #     value: some_system_property_value
 
   # Enable a public endpoint for the application. If not set, the application
   # is only available on an internal endpoint accessible to other applications
