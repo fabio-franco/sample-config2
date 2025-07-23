@@ -6,15 +6,14 @@ app:
   # Set the build version ID to deploy for the "Build, deploy, and run" 
   # scenario. If the value is set to an empty string ("") the application
   # is not deployed.
-  version: "e36f8aa9-71b4-4749-8ecb-2cdc77a018c3"
-  
-
+  version: e3ee29c3-386b-4a59-a854-54e5f92caee2
+    
   # Set the Maven coordinates of the Maven artifact to deploy for the 
   # "Deploy, and run" scenario.
-  #maven:
+  # maven:
   #  groupId: net.wasdev.wlp.sample
   #  artifactId: ferret
-  #  version: 1.2
+  #  version: "1.2"
   #  type: war
 
   # Set minimum and maximum number of instances of the application. 
@@ -23,10 +22,10 @@ app:
   instances:
     # The minimum number of instances. Must be at least 1. For 
     # high-availability support, set this value to at least 3. The service
-    # spreads instances among different availability zones. 
+    # spreads instances among different availability zones. `
     # Defaults to 1 if not set.
     min: 1
-    
+
     # The maximum number of instances. Cannot be less than the min value. 
     # Defaults to the min value if not set.
     max: 1
@@ -73,7 +72,7 @@ app:
   #java: 17
   
   # Set the name of the custom domain for the application.
-  #host: my_custom_domain.io
+  # host: my_custom_domain.io
 
   # Set a list of service bindings for the application. The bindings can be
   # provided in two ways: by providing the full crn value of the service 
