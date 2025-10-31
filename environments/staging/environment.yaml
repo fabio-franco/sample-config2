@@ -79,15 +79,15 @@ app:
   # instance or by providing the name and type of the service instance. The
   # preferred way is to provide the crn value as the service instance names
   # can change and might not be unique.
-  services:
+  # services:
   # - crn: "crn:v1:bluemix:public:dashdb-for-transactions:us-east:a/123:456::"
   # - name: "my Db2 instance"
   #   type: dashdb-for-transactions
 
   # AWS Endpoint Service Binding
-    - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-1234567890abcdef0"
+    # - awsEndpointService: "com.amazonaws.vpce.us-east-1.vpce-svc-1234567890abcdef0"
     
-    # Amazon CloudWatch Service Binding
-    - amazonCloudWatch:
-        arn: "arn:aws:iam::123456789012:role/EASEJCloudWatchRole"
-        logGroup: "/aws/easej/my-application"
+    # # Amazon CloudWatch Service Binding
+    # - amazonCloudWatch:
+    #     arn: "arn:aws:iam::123456789012:role/EASEJCloudWatchRole"
+    #     logGroup: "/aws/easej/my-application"
